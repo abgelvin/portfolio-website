@@ -1,0 +1,67 @@
+html {
+    text-align: center;
+}
+
+nav li {
+    font-family: fantasy;
+    display: inline-block;
+    width: 175px;
+    align-items: center;   
+}
+
+display: block;
+    height: 30px;
+    width: 175px;
+    /* text-align: center; */
+    padding: 12px;
+    border: black;
+    background-color: white;
+    border-radius: 5px
+px
+;
+
+a {
+    display: block;
+    height: 30px;
+    width: 175px;
+    padding: 12px;
+    border: 2px solid black thick;
+    border-radius: 5px;
+}
+
+body {
+    font-family: fantasy;
+    background-color: rgb(238, 232, 232);
+}
+
+h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+th {
+    font-weight: bold;
+    background-color: darkgrey;
+}
+
+td {
+    background-color: rgb(187, 184, 189);
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  } 
