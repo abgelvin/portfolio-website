@@ -1,11 +1,14 @@
 main {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 h1 {
+    font-size: 50px;
+    font-family: helvetica, sans-serif;
     text-align: center;
+    margin-top: 100px;
 }
 
 .birds {
@@ -14,7 +17,9 @@ h1 {
     height: 300px;
     border: 2px solid black;
     border-radius: 5px;
-            
+    display: flex;
+    justify-content: center;
+
 }
 
 .bikes {
@@ -23,6 +28,8 @@ h1 {
     height: 300px;
     border: 2px solid black;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .design {
@@ -31,16 +38,28 @@ h1 {
     height: 300px;
     border: 2px solid black;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 img {
-    width: 100%;
-    
-   
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 h2 {
+    font-family: helvetica, sans-serif;
     position: absolute;
     z-index: 1;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 4px;
+    opacity: .7;
+    
+}
 
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
